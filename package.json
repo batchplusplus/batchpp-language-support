@@ -1,0 +1,31 @@
+{
+  "name": "batchpp-language-support",
+  "displayName": "Batch++ language support for Visual Studio Code",
+  "description": "Syntax highlighting for Batch++ (.bpp) files",
+  "version": "0.0.0",
+  "publisher": "benja2998",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Programming Languages"],
+  "activationEvents": [
+    "onLanguage:bpp"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "bpp",
+        "aliases": ["Batch++", "batchpp", "bpp"],
+        "extensions": [".bpp"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bpp",
+        "scopeName": "source.bpp",
+        "path": "./syntaxes/bpp.tmLanguage.json"
+      }
+    ]
+  }
+}

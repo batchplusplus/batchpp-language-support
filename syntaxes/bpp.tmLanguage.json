@@ -1,0 +1,42 @@
+{
+  "scopeName": "source.bpp",
+  "name": "Batch++",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.bpp",
+      "match": "#.*$"
+    },
+    {
+      "name": "keyword.control.bpp",
+      "match": "\\b(set|defmacro|endmacro|callmacro|if|else|endif|while|endwhile|for|endfor|label|goto|call)\\b"
+    },
+    {
+      "name": "variable.parameter.bpp",
+      "match": "%[a-zA-Z_][a-zA-Z0-9_]*%"
+    },
+    {
+      "name": "entity.name.label.bpp",
+      "match": "(?<=\\blabel\\s)[a-zA-Z_][a-zA-Z0-9_]*"
+    },
+    {
+      "name": "entity.name.macro.bpp",
+      "match": "(?<=\\bdefmacro\\s)[a-zA-Z_][a-zA-Z0-9_]*"
+    },
+    {
+      "name": "string.quoted.double.bpp",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.bpp",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric.bpp",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    }
+  ],
+  "fileTypes": ["bpp"]
+}
