@@ -8,7 +8,7 @@
     },
     {
       "name": "keyword.control.bpp",
-      "match": "\\b(set|defmacro|endmacro|callmacro|if|else|endif|while|endwhile|for|endfor|label|goto|call|echo)\\b"
+      "match": "\\b(set|defmacro|endmacro|callmacro|if|else|endif|while|endwhile|for|endfor|label|goto|call|echo|setlocal)\\b"
     },
     {
       "name": "variable.parameter.bpp",

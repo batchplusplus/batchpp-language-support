@@ -6,4 +6,4 @@ Batch++ language support for Visual Studio Code
 
 Batch++ is an extension of Windows Batch that has much cleaner syntax and adds things like macros and while loops.
 
-![image of language syntax](./assets/image.png)
+![image of language syntax](https://raw.githubusercontent.com/batchplusplus/batchpp-language-support/refs/heads/main/assets/image.png)

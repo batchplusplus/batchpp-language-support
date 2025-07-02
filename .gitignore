@@ -1,1 +1,4 @@
 *.vsix
+# Ignore output JavaScript
+out/
+node_modules/
