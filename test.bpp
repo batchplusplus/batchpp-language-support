@@ -1,9 +1,17 @@
+@echo off
+
 # This is a comment
 
-echo This is a keyword
-powershell -command "Write-Host 'This is an external command'"
+defmacro greet name
+echo Hello %name%!
+endmacro
 
-for /f "tokens=*" %%a in ('dir /b /a-d')
-    # This is a comment
-    echo %%a
-endfor
+callmacro greet John
+
+nmap --version >nul 2>&1
+
+if %errorlevel% == 0
+    echo Nmap is installed
+else
+    echo Nmap is not installed
+endif
