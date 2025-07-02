@@ -8,9 +8,6 @@
     "vscode": "^1.60.0"
   },
   "categories": ["Programming Languages"],
-  "activationEvents": [
-    "onLanguage:bpp"
-  ],
   "contributes": {
     "languages": [
       {

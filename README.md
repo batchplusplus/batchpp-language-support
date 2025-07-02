@@ -7,7 +7,7 @@ Batch++ language support for Visual Studio Code
 Compile into the VSIX file:
 
 ```bash
-npm install -g vsce
+npm install -g @vscode/vsce
 vsce package
 ```
 
