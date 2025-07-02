@@ -12,3 +12,5 @@ vsce package
 ```
 
 You can then install the extension from the VSIX file.
+
+You can also get the [extension from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=benja2998.batchpp-language-support)

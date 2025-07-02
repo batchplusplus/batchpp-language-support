@@ -1,0 +1,9 @@
+# This is a comment
+
+echo This is a keyword
+powershell -command "Write-Host 'This is an external command'"
+
+for /f "tokens=*" %%a in ('dir /b /a-d')
+    # This is a comment
+    echo %%a
+endfor
