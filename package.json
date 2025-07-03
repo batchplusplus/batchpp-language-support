@@ -6,7 +6,7 @@
   "publisher": "benja2998",
   "repository": "https://github.com/batchplusplus/batchpp-language-support",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.101.0"
   },
   "categories": [
     "Programming Languages"
