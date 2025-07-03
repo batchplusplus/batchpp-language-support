@@ -2,7 +2,7 @@
   "name": "batchpp-language-support",
   "displayName": "Batch++ language support for Visual Studio Code",
   "description": "Syntax highlighting and IntelliSense for Batch++ (.bpp) files",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "benja2998",
   "repository": "https://github.com/batchplusplus/batchpp-language-support",
   "engines": {
